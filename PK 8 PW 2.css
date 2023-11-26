@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+body{
+    background: pink;
+}
+
+header,footer{
+    background: rgb(63, 214, 219);
+    height: 75px;
+    margin-bottom: 25px;
+}
+
+.main{
+    display: flex;
+    height: 500px;
+}
+aside{
+    background: rgb(112, 145, 146);
+    margin-right: 25px;
+    width: 25%;
+}
+article{
+    background: palevioletred;
+    width: 75%;
+}
+img{
+    width: 300px;
+    margin: 25px;
+    position: relative;
+    top: 200px;
+}
